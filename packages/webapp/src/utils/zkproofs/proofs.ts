@@ -96,7 +96,7 @@ export async function prove(
         return {
             proof_a: proof["pi_a"].slice(0, 2),
             proof_b: [
-                // The snarkjs-generated verifier uses a different endianess than the one used by the
+                // The snarkjs-generated verifier uses a different endianness than the one used by the
                 // snarkjs-generated prover.
                 [proof["pi_b"][0][1], proof["pi_b"][0][0]],
                 [proof["pi_b"][1][1], proof["pi_b"][1][0]],

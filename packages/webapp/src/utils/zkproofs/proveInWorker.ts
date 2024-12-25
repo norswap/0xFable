@@ -18,7 +18,7 @@ import { isProofOutput, ProofCancelled, ProofOutput, ProofTimeoutError } from "s
  * A timeout (in seconds) can be supplied, in which case the worker will be terminated if the proof
  * takes longer than the timeout. If set to 0 (the default), no timeout is used.
  *
- * In additiona to the promise, this returns a `cancel` function which can be used to terminate the
+ * In additional to the promise, this returns a `cancel` function which can be used to terminate the
  * worker (and hence cancel the proof).
  */
 export function proveInWorker(
