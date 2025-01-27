@@ -20,7 +20,7 @@ We use the Jotai state management library, which defines the state as "atoms". H
 Jotai behind interfaces, in case it would be opportune to change the store management strategy or
 library later.
 
-The easiest way to understand how this all works is to detail the functionality of the varous files
+The easiest way to understand how this all works is to detail the functionality of the various files
 in the store.
 
 ### `atoms.ts`
